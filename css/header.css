@@ -12,6 +12,7 @@
     width: 100%;
     background-color: lightpink;
     padding: 30px 330px;   
+    z-index: 1;
    
 }
 
