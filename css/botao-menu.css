@@ -1,0 +1,19 @@
+.botao-menu-open{
+    display: block;
+    background-image: url(../imagens/icone-menu.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding: 20px 15px;
+}
+
+.botao-menu-close{
+    display: block;
+    background-color: aquamarine;
+    background-image: url(../imagens/icone-menu.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding: 20px 15px;
+}
+

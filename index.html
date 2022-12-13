@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html Lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Meu Portfolio WEB</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/botao-menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div> 
+            <nav class="menu-navegacao">                    
+                <ul>
+                    <li><a href="#sobre-mim">Sobre mim</li>&#127800;</a>
+                    <li><a href="#educacao">Educação</li>&#127800;</a>
+                    <li><a href="#experiencia">Experiências</li>&#127800;</a>
+                    <li><a href="#habilidades">Habilidades</li>&#127800;</a>
+                    <li><a href="#interesses">Interesses</li></a>
+                </ul>                              
+            </nav>  
+        </div>
+
+        <div>
+            <nav class="menu-mobile">
+                <a href="#menu" class="botao-menu-open">Menu</a>
+
+                <ul id="menu" class="menu">
+                    <li class="botao-menu-close">Sair</li>
+                    <li class="menu-item">
+                        <a href="#sobre-mim" class="menu-item-acao">Sobre mim</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#educacao" class="menu-item-acao">Educação</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#experiencia" class="menu-item-acao">Experiências</a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#habilidades" class="menu-item-acao">Habilidades</a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#interesses" class="menu-item-acao">Interesses</a>
+                    </li>                        
+                </ul>
+            </nav>
+        </div> 
+            
+        <img class="imagem-perfil" src="imagens/foto-perfil.jpeg">
+
+        <div class="caixa-contatos">
+            <p class="nome">Jessica Maria Guimarães Braga</p>
+            <p class="cargo">Desenvolvedora de Software</p>
+            <p class="contatos"><img class="img-contato" src="imagens/envelope.png">jessicaguima01@icloud.com</p>
+            <p class="contatos"><img class="img-contato" src="imagens/celular.png">(35)99150-7170</p>
+            <p class="contatos"><img class="img-contato" src="imagens/localizacao.png" >Itajubá/MG - Brasil</p>
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li class="icons-redes">
+                        <a target="_blank" href="https://www.linkedin.com/in/jessicaguima/"><img class="tamanho-redes" src="imagens/linkedin.png"></a>
+                    </li> 
+                    <li class="icons-redes">
+                        <a target="_blank" href="https://www.instagram.com/sicatiara/"><img class="tamanho-redes" src="imagens/instagram.png"></a>
+                    </li>
+                    <li class="icons-redes">
+                        <a target="_blank" href="https://github.com/jessicaguima"><img class="tamanho-redes" src="imagens/github.png"></a>
+                    </li>                                     
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+    <main>
+        <section class="principal">
+            <img class="mesa-de-trabalho" src="imagens/trabalho.jpg">
+            <div class="caixa-sobre-mim">                    
+                <h1 id="sobre-mim">Sobre mim</h1>
+                <p class="sobre-mim">Olá, me chamo Jessica Maria Guimarães Braga sou uma mulher trans/travesti. Estou buscando um mundo mais inclusivo e através do projeto da Suzano com a Alura estou me especializando em Front-end e buscando aprender e a melhorar a cada dia.
+                </p>
+            </div>
+
+            <h2 id="educacao" class="educacao">Educação</h2>
+            <div class="caixa-educacao">
+                <p class="letra-principal">Cursos de HTML, CSS, JavaScript e Python</p>
+                <p class="letra-principal">Certificados</p>
+            </div>                
+
+            <h3 id="experiencia" class="experiencia">Experiências</h3>
+            <div class="caixa-experiencia">
+                <p class="letra-principal">Cursos através da Alura. Encontros no meet para fixação do conteúdo</p>
+                <p class="letra-principal">Voluntariado em escola e Feira de profissões da Faculdade</p>
+            </div>
+
+            <h4 id="habilidades" class="habilidades">Habilidades</h4>
+            <div>
+            <img class="imagem-habilidade" src="imagens/html.png">
+            <img class="imagem-habilidade" src="imagens/css.png">
+            <img class="imagem-habilidade" src="imagens/javascript.png">
+            </div>
+                
+            <h5 id="interesses" class="interesses">Interesses</h5>
+            <div>
+                <img class="imagem-interesse" src="imagens/html.png">
+                <img class="imagem-interesse" src="imagens/css.png">
+                <img class="imagem-interesse" src="imagens/javascript.png">
+                <img class="imagem-interesse" src="imagens/linux.png">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="contato-rodape">Fale comigo através do <a target="_blank" href="mailto:jessicaguima01@icloud.com">e-mail</a> ou do <a target="_blank" href="https://api.whatsapp.com/send?phone=5535991507170&text=Ol%C3%A1%2C%20Obrigada%20por%20entrar%20em%20contato%2C%20responderei%20o%20mais%20r%C3%A1pido%20poss%C3%ADvel.!!">Whatsapp</a></p>
+        <p class="nome-ano">Jessica Braga</p>
+        <p class="nome-ano">2022</p>
+    </footer>
+        
+    <script src="js/botao-menu.js"></script>            
+</body>
+</html>

@@ -1,0 +1,84 @@
+/*---------------Cabeçalho---------------*/
+
+.header {
+    background-color: lightpink;
+    width: 100%;
+    padding-bottom: 50px;
+      
+}
+
+.menu-navegacao {
+    position: fixed; 
+    width: 100%;
+    background-color: lightpink;
+    padding: 30px 330px;   
+   
+}
+
+.menu-navegacao li {
+    display: inline;
+    margin: 16px 10px;
+                    
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-navegacao a:hover {
+    color: aquamarine;
+    
+}
+
+.imagem-perfil {
+    position: relative;
+    width: 426px;
+    height: 426px;
+    left: 750px;
+    top: 150px;
+    border-radius: 200px;
+    box-sizing: border-box;
+    border: 12px solid #ffd5f1;
+
+}
+
+.caixa-contatos {
+    padding: 0 100px;
+    position: relative;
+    bottom: 200px;   
+}
+
+.nome {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;    
+}
+
+.cargo {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.contatos {
+    font-size: 15px;
+    padding: 3px 0 10px 0;    
+}
+
+.img-contato {
+    margin: 0 10px 0 0;
+}
+
+.icons-redes {
+    display: inline;
+    padding: 0 5px;
+    position: relative;
+    left: 860px;
+        
+}
+
+.tamanho-redes {
+    width: 64px;
+    height: 64px;
+}

@@ -1,0 +1,94 @@
+/*---------------Principal---------------*/
+
+.principal {
+    padding: 3em 0;
+    background-color: white;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mesa-de-trabalho {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px lightpink;
+    
+    
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+    left: 126px;
+}
+
+.sobre-mim {
+    position: relative;
+    left: 170px;
+    font-size: 20px;
+    padding: 50px 50px;
+    text-align: justify
+    
+}
+
+.educacao {
+    padding: 120px 0;
+    font-size: 30px;
+}
+
+.letra-principal {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 20px;
+    text-align: justify;
+}
+
+.caixa-educacao {
+    width: 348px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    background-color: aquamarine;
+    border-radius: 24px;
+}
+
+.experiencia {
+    padding: 150px 0;
+    font-size: 30px;
+}
+
+.caixa-experiencia {
+    width: 348px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    background-color: aquamarine;
+    border-radius: 24px;
+}
+
+.habilidades {
+    padding: 100px 0;
+    font-size: 30px;
+}
+
+.interesses {
+    font-size: 30px;
+    
+}
+
+.imagem-habilidade {
+    position: relative;
+    bottom: 60px;
+    padding: 0 10px;
+}
+
+.imagem-interesse {
+    position: relative;
+    top: 30px;
+    padding: 0 10px;
+}
